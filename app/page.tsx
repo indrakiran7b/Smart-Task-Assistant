@@ -96,7 +96,7 @@ export default function Home() {
             <TaskList tasks={displayTasks} onToggle={toggleTask} onUpdate={updateTask} onDelete={deleteTask} />
           </div>
           <div className="lg:col-span-1">
-            <AIInsights tasks={tasks} isOpen={showAI} onToggle={() => setShowAI(!showAI)} />
+            <AIInsights tasks={tasks} />
           </div>
         </div>
       </div>
